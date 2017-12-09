@@ -23,4 +23,4 @@ mod "puppet/selinux",	    	 '0.8.0'
 
 mod 'perfprobes',
   :git => 'git@github.com:venkiamd/perfprobes.git',
-  :ref => 'development'
+  :ref => 'master'
