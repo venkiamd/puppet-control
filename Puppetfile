@@ -20,3 +20,7 @@ mod "puppetlabs/stdlib",    	 '4.11.0'
 mod "puppetlabs/concat",    	 '2.1.0'
 mod "puppetlabs/java",      	 '1.6.0'
 mod "puppet/selinux",	    	 '0.8.0'
+
+mod 'perfprobes'
+  :git => 'git@github.com:venkiamd/perfprobes.git',
+  :ref => 'development'
