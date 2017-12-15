@@ -15,3 +15,12 @@ forge "https://forge.puppet.com"
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+mod "puppetlabs/inifile",        '1.5.0'
+mod "puppetlabs/stdlib",         '4.11.0'
+mod "puppetlabs/concat",         '2.1.0'
+mod "puppetlabs/java",           '1.6.0'
+mod "puppet/selinux",            '0.8.0'
+
+mod 'myproj01',
+  :git => 'git@bitbucket.org:venkiamd/myproj01.git',
+  :ref => 'master'
